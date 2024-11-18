@@ -1,0 +1,29 @@
+warning: in the working copy of 'text.file', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/explain.md b/explain.md[m
+[1mindex 5188059..42e107d 100644[m
+[1m--- a/explain.md[m
+[1m+++ b/explain.md[m
+[36m@@ -37,4 +37,13 @@[m [mcd new_folder[m
+   git add .[m
+   git commit -m "hi"[m
+ ```[m
+[31m- [m
+\ No newline at end of file[m
+[32m+[m[32m#### Task 4: Viewing Changes[m
+[32m+[m
+[32m+[m[32m1.modify the file[m[41m [m
+[32m+[m
+[32m+[m[32m  echo "my name is kiran" >text.file[m
+[32m+[m
+[32m+[m[32m2.check the file status and difference[m
+[32m+[m
+[32m+[m[32m  git status[m[41m [m
+[32m+[m[32m  git diff[m
+\ No newline at end of file[m
+[1mdiff --git a/text.file b/text.file[m
+[1mindex ce01362..0a32ded 100644[m
+[1m--- a/text.file[m
+[1m+++ b/text.file[m
+[36m@@ -1 +1,2 @@[m
+ hello[m
+[32m+[m[32mmy name is kiran[m

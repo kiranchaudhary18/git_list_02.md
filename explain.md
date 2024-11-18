@@ -37,4 +37,13 @@ cd new_folder
   git add .
   git commit -m "hi"
 ```
- 
+#### Task 4: Viewing Changes
+
+1.modify the file 
+
+  echo "my name is kiran" >text.file
+
+2.check the file status and difference
+
+  git status 
+  git diff
