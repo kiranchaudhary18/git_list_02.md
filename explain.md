@@ -47,3 +47,35 @@ cd new_folder
 
   git status 
   git diff
+
+#### Task 5: Undoing Changes  
+
+1.unstage the staged file
+
+  git reset text.file
+
+2.discard uncommited changes
+
+  git checkout -- text.file
+
+#### Task 6: Branch Management
+
+1.create a branch and switch 
+
+ git checkout -b feature
+
+2.list branches
+ git branch
+
+3.rename a branch
+ git branch -m feature main  
+
+ #### ask 7: Merging Branches
+
+ 1.merge the branch
+
+   git checkout feature
+   git merge main
+
+#### Task 8: Handling Merge Conflicts
+   
